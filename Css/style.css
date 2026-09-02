@@ -82,7 +82,7 @@ a {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    object-position: center;
+    object-position: center 32%;
     border-radius: 50%;
     margin: 8px auto 18px;
     border: 5px solid rgba(255, 255, 255, 0.9);
