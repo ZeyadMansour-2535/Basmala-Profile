@@ -3,11 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>بيانات التواصل ❤️</title>
 
-    <link rel="stylesheet" href="Css/style.css">
+    <link
+        rel="stylesheet"
+        href="Css/style.css?v=20260904-2"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
 </head>
 
 <body>
@@ -16,19 +28,25 @@
 
         <!-- صورة الشخص -->
         <img
-            src="images/profile.jpg.jpeg"
-            alt="صورة الشخص"
+            src="images/profile.jpeg"
+            alt="Basmala Adel"
             class="profile-image"
         >
 
-        <!-- الاسم -->
-        <h1>Basmala Adel</h1>
 
-        <!-- الوصف -->
+        <!-- الاسم -->
+        <h1>
+            Basmala Adel
+        </h1>
+
+
+        <!-- الوظيفة -->
         <p class="job-title">
             Software engineer
         </p>
 
+
+        <!-- الدراسة -->
         <p class="company">
             study Computer Science at Culture and Science City
         </p>
@@ -37,34 +55,44 @@
         <!-- وسائل التواصل السريعة -->
         <div class="quick-contact">
 
-            <!-- اتصال -->
-            <a
-                href="tel:+201093109086"
-                class="contact-icon"
+            <!-- الاتصال -->
+            <button
+                type="button"
+                data-url="tel:+201093109086"
+                class="contact-icon phone"
                 title="اتصال"
             >
-                📞
-            </a>
+                <span>
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                </span>
+            </button>
 
-            <!-- إيميل -->
-            <a
-                href="mailto:bosyadel663@gmail.com"
-                class="contact-icon"
+
+            <!-- الإيميل -->
+            <button
+                type="button"
+                data-url="mailto:bosyadel663@gmail.com"
+                class="contact-icon email"
                 title="إيميل"
             >
-                ✉️
-            </a>
+                <span>
+                    <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                </span>
+            </button>
+
 
             <!-- واتساب -->
-            <a
-                href="https://wa.me/201093109086"
-                target="_blank"
-                rel="noopener"
-                class="contact-icon"
+            <button
+                type="button"
+                data-url="https://wa.me/201093109086"
+                data-new-tab="true"
+                class="contact-icon whatsapp"
                 title="واتساب"
             >
-                💬
-            </a>
+                <span>
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                </span>
+            </button>
 
         </div>
 
@@ -72,10 +100,31 @@
         <!-- About Me -->
         <div class="about-box">
 
-            <h2>About me</h2>
+            <div class="about-title">
+
+                <button
+                    type="button"
+                    data-url="contacts.html"
+                    class="about-icon"
+                    title="جهات الاتصال"
+                    aria-label="فتح جهات الاتصال"
+                >
+                    <i class="fa-solid fa-ellipsis" aria-hidden="true"></i>
+                </button>
+
+                <h2>
+                    About me
+                </h2>
+
+            </div>
 
             <p>
-                I am a software engineer with a passion for creating innovative solutions. I have experience in web development, mobile app development, and software design. I enjoy learning new technologies and applying them to real-world projects.
+                I am a software engineer with a passion
+                for creating innovative solutions. I have
+                experience in web development, mobile app
+                development, and software design. I enjoy
+                learning new technologies and applying them
+                to real-world projects.
             </p>
 
         </div>
@@ -84,50 +133,116 @@
         <!-- وسائل التواصل الإضافية -->
         <div class="social-links">
 
-            <!-- واتساب -->
-            <a
-                href="https://wa.me/201093109086"
-                target="_blank"
-                rel="noopener"
-                class="social-link"
+            <!-- WhatsApp -->
+            <button
+                type="button"
+                data-url="https://wa.me/201093109086"
+                data-new-tab="true"
+                class="social-link whatsapp"
             >
-                WhatsApp
-            </a>
+                <span class="social-icon">
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                </span>
 
-            <!-- فيسبوك -->
-            <a
-                href="https://www.facebook.com/share/1DWhruD6My/"
-                target="_blank"
-                rel="noopener"
-                class="social-link"
-            >
-                Facebook
-            </a>
+                <span>
+                    WhatsApp
+                </span>
+            </button>
 
-            <!-- إنستجرام -->
-            <a
-                href="https://www.instagram.com/basbosa_1612?igsi=MXB3Mnd3Z2hzZ2F5bQ=="
-                target="_blank"
-                rel="noopener"
-                class="social-link"
+
+            <!-- Facebook -->
+            <button
+                type="button"
+                data-url="https://www.facebook.com/share/1DWhruD6My/"
+                data-new-tab="true"
+                class="social-link facebook"
             >
-                Instagram
-            </a>
+                <span class="social-icon">
+                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                </span>
+
+                <span>
+                    Facebook
+                </span>
+            </button>
+
+
+            <!-- Instagram -->
+            <button
+                type="button"
+                data-url="https://www.instagram.com/basbosa_1612?igsi=MXB3Mnd3Z2hzZ2F5bQ=="
+                data-new-tab="true"
+                class="social-link instagram"
+            >
+                <span class="social-icon">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </span>
+
+                <span>
+                    Instagram
+                </span>
+            </button>
 
         </div>
 
 
         <!-- زر الذكريات -->
-        <!-- نفس فكرة Add to Contact -->
-        <a
-            href="memories.html"
+        <!-- نفس فكرة زر Add to Contact -->
+
+        <button
+            type="button"
+            id="memoryButton"
             class="memory-button"
             title="الذكريات"
-        >
-            ❤️
-        </a>
+            aria-label="فتح الذكريات بالضغط المطوّل"
+            aria-pressed="false"
+        >❤️
+        </button>
 
     </main>
+ <script src="JS/main.js?v=20260904-buttons"></script>
+ <script>
+    const memoryButton = document.getElementById("memoryButton");
+
+    let timer = null;
+    const holdTime = 10000;
+
+    function startHold(event) {
+        event.preventDefault();
+        if (timer) {
+            return;
+        }
+
+        memoryButton.setAttribute("aria-pressed", "true");
+        memoryButton.classList.add("is-pressing");
+
+        timer = setTimeout(() => {
+            window.location.href = "memories.html";
+        }, holdTime);
+    }
+
+    function cancelHold() {
+        if (timer) {
+            clearTimeout(timer);
+            timer = null;
+        }
+
+        memoryButton.setAttribute("aria-pressed", "false");
+        memoryButton.classList.remove("is-pressing");
+    }
+
+    memoryButton.addEventListener("pointerdown", startHold);
+    memoryButton.addEventListener("pointerup", cancelHold);
+    memoryButton.addEventListener("pointercancel", cancelHold);
+    memoryButton.addEventListener("pointerleave", cancelHold);
+    document.addEventListener("pointerup", cancelHold);
+    document.addEventListener("pointercancel", cancelHold);
+    document.addEventListener("pointerleave", cancelHold);
+    window.addEventListener("blur", cancelHold);
+    memoryButton.addEventListener("contextmenu", event => {
+        event.preventDefault();
+    });
+ </script> 
 
 </body>
 

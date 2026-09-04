@@ -7,7 +7,7 @@ const memories = [
 
         title: "خروجة مول العرب Z&B ❤️",
 
-        folder: "خروجة مول العرب Z&B",
+        folder: "mall-arab",
 
         startImage: 1,
 
@@ -30,7 +30,7 @@ const memories = [
 
         title: "قلعة صلاح الدين ❤️",
 
-        folder: "قلعة صلاح الدين",
+        folder: "salah-citadel",
 
         startImage: 1,
 
@@ -53,7 +53,7 @@ const memories = [
 
         title: "عبثيات بالكاميرا ❤️",
 
-        folder: "عبثيات بالكاميرا",
+        folder: "camera-chaos",
 
         startImage: 1,
 
@@ -76,7 +76,7 @@ const memories = [
 
         title: "عيد ميلاد بسبوسه ال19 ❤️",
 
-        folder: "عيد ميلاد بسبوسه ال19",
+        folder: "birthday-19",
 
         startImage: 1,
 
@@ -99,7 +99,7 @@ const memories = [
 
         title: "كياته في الاتوبيس ❤️",
 
-        folder: "كياته في الاتوبيس",
+        folder: "bus-cuteness",
 
         startImage: 1,
 
@@ -122,7 +122,7 @@ const memories = [
 
         title: "يوم في الجامعه لوحدنا ❤️",
 
-        folder: "يوم في الجامعه لوحدنا",
+        folder: "university-day",
 
         startImage: 1,
 

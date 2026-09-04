@@ -1,8 +1,4 @@
-const isAuthenticated =
-    sessionStorage.getItem("authenticated");
-
-
-if (isAuthenticated !== "true") {
+if (!isAuthenticated()) {
 
     window.location.href =
         "memories.html";
