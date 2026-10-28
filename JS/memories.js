@@ -135,6 +135,132 @@ const memories = [
 
         commentAfter:
             "️ربنا يديمك ليا ويديمك تاج فوق راسي ي قلبي وعنيا ❤️"
-    }
+    },
+
+
+    {
+        id: 7,
+
+        date: "18/7/2026",
+
+        title: "تربيه عسكري بسبوسه ❤️",
+
+        folder: "تربيه عسكري بسبوسه",
+
+        startImage: 1,
+
+        endImage: 17,
+
+        extension: "jpeg",
+
+        paddedImages: false,
+
+        commentBefore:
+            "فتره حرفيا كانت ثقيله اوي ع قلبي انك راحه جايه لوحدك وانا مش معاكل كل يوم بس الحمد لله عدت ع خير ",
+
+        commentAfter:
+            "ربنا يديمك ليا ويديمك تاج فوق راسي ي قلبي وعنيا ❤️"
+    },
+
+
+    {
+        id: 8,
+
+        date: "14/10/2026",
+
+        title: "عبثيات يوم جامعه ❤️",
+
+        folder: "عبثيات يوم جامعه",
+
+        startImage: 1,
+
+        endImage: 33,
+
+        extension: "jpeg",
+
+        paddedImages: false,
+
+        commentBefore:
+            "يوم حرفيا مكنش متوقغ فيه اي صور بس حرفيا تحححححححفه ❤️",
+
+        commentAfter:
+            " حرفيا بقا أحلى أيام الجامعة هي اللي كانت معاكي ❤️"
+    },
+
+
+    {
+        id: 9,
+
+        date: "17/6/2026",
+
+        title: "كياته (بوسي و زيزوووو) ❤️",
+
+        folder: "كياته (بوسي و زيزوووو)",
+
+        startImage: 1,
+
+        endImage: 22,
+
+        extension: "jpeg",
+
+        paddedImages: false,
+
+        commentBefore:
+            "بصي هسيب الصور هي اللي تتكلم بحبك اصلا ❤️",
+
+        commentAfter:
+            "بموت فيكي يا بسبوووووسه ❤️"
+    },
+
+
+    {
+        id: 10,
+
+        date: "4/10/2026",
+
+        title: "يوم بعد ما كلو مشي الا احنااا 😂",
+
+        folder: "يوم بعد ما كلو مشي الا احنااا 😂",
+
+        startImage: 1,
+
+        endImage: 29,
+
+        extension: "jpeg",
+
+        paddedImages: false,
+
+        commentBefore:
+            "لما الكل مشي وفضلنا احنا لوحدنا 😂❤️",
+
+        commentAfter:
+            " حرفيا كلو فك بعد ما بقينا لوحدنا ❤️"
+    },
+
+
+    {
+        id: 11,
+
+        date: "5/10/2026",
+
+        title: "يوم جامعه لوحدنا من تصويري (زيزوو) ❤️",
+
+        folder: "يوم جامعه لوحدنا من تصويري (زيزوو)",
+
+        startImage: 1,
+
+        endImage: 37,
+
+        extension: "jpeg",
+
+        paddedImages: false,
+
+        commentBefore:
+            "يوم جامعة مختلف ومليان تفاصيل حلوة ❤️",
+
+        commentAfter:
+            "تصويريييييييييييي❤️"
+    },
+
 
 ];

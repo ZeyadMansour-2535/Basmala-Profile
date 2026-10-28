@@ -46,7 +46,7 @@ function generateImages(memory) {
         let fileName;
 
 
-        if (i < 10) {
+        if (memory.paddedImages !== false && i < 10) {
 
             fileName =
                 `0${i}.${memory.extension}`;
