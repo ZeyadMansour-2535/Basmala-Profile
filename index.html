@@ -200,7 +200,7 @@
         </button>
 
     </main>
- <script src="JS/main.js?v=20260904-buttons"></script>
+ <script src="JS/main.js?v=20261028-1"></script>
  <script>
     const memoryButton = document.getElementById("memoryButton");
 
@@ -235,6 +235,9 @@
     memoryButton.addEventListener("pointerup", cancelHold);
     memoryButton.addEventListener("pointercancel", cancelHold);
     memoryButton.addEventListener("pointerleave", cancelHold);
+    memoryButton.addEventListener("click", () => {
+        window.location.href = "memories.html";
+    });
     document.addEventListener("pointerup", cancelHold);
     document.addEventListener("pointercancel", cancelHold);
     document.addEventListener("pointerleave", cancelHold);
